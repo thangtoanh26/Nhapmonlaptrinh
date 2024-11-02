@@ -5,7 +5,7 @@ Dòng đầu tiên là số thứ nhất.
 Dòng thứ hai là số thứ hai.
 OUTPUT
 Xuất ra 0 ( nếu hai số khác nhau), 1 (nếu hai số bằng nhau).
-  */
+*/
 
 #include <stdio.h>
 
