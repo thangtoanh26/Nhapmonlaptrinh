@@ -39,7 +39,7 @@ int main() {
     if (saoKe > phongBat || phongBat == 0) printf("Khiem ton, dang tuyen duong!");
     else if (saoKe == phongBat) printf("Dang tuyen duong!");
     else if (saoKe == 0) printf("Congrats! Miss Phong Bat is here!");
-    else if (phongBat % saoKe != 0) printf("Phong bat tien ung ho %.2lf lan!", static_cast<double>(phongBat) / saoKe);
+    else if (phongBat % saoKe != 0) printf("Phong bat tien ung ho %.2lf lan!", phongBat * 1.0 / saoKe);
     else printf("Phong bat tien ung ho %lld lan!", phongBat / saoKe);
     
     return 0;
