@@ -2,12 +2,13 @@
 Viết chương trình nhập vào điểm thi 3 môn toán, lý và hóa. Tính điểm trung bình và xếp loại học lực.
 Cách tính điểm trung bình (DTB), DTB = (điểm toán + điếm lý + điểm hóa )/3. Làm tròn 2 chữ số thập phân.
 Điều kiện xếp loại:
-    Xuất sắc (XUAT SAC) : [9-10];
-    Giỏi (GIOI): [8-9);
-    Khá (KHA): [7-8);
-    Trung bình khá (TB KHA): [6-7);
-    Trung bình (TB): [5-6);
-    Yếu (YEU): [4-5) và kém (KEM): dưới 4.
+    Xuất sắc (XUAT SAC) :             [9-10];
+    Giỏi (GIOI):                      [8-9);
+    Khá (KHA):                        [7-8);
+    Trung bình khá (TB KHA):          [6-7);
+    Trung bình (TB):                  [5-6);
+    Yếu (YEU):                        [4-5);
+    Kém (KEM):                        dưới 4.
 
 INPUT
 Dòng đầu tiên là điểm Toán.
