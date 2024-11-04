@@ -1,3 +1,33 @@
+/*
+Viết chương trình nhập vào ngày tháng năm. Kiểm tra ngày tháng năm nhập vào có hợp lệ hay không?
+Giả sử:
+    Năm hợp lệ: năm  >  0, 
+    Tháng 2 có 28 ngày (năm không nhuận), hoặc 29 ngày (năm nhuận),
+    Năm nhuận: chia hết cho 4 nhưng không chia hết cho 100, hoặc chia hết cho 400,
+    Tháng 4, 6, 9, 11 có 30 ngày,
+    Các tháng còn lại có 31 ngày.
+Lưu ý: Các bạn ưu tiên kiểm tra theo thứ tự: năm, tháng, ngày.
+
+INPUT:
+Nhập ngay, thang, nam trên cùng một dòng (ba số nguyên cách nhau bởi khoảng trắng).
+
+OUTPUT
+Định dạng như ví dụ minh họa.
+
+VÍ DỤ:
+INPUT                    OUTPUT
+---------------------------------------------------------
+1 1 1                    1/1/1 la ngay hop le.
+---------------------------------------------------------
+13 5 0                   Nam khong hop le.
+---------------------------------------------------------
+12 13 1990               Thang khong hop le.
+---------------------------------------------------------
+29 2 2019                29/2/2019 la ngay khong hop le.
+
+ 
+*/
+
 #include <iostream>
 using namespace std;
 
