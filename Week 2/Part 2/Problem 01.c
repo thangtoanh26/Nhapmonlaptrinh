@@ -24,5 +24,5 @@ INPUT        OUTPUT
 int main() {
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("%d", (a == b));                 //Sử dụng phép so sánh (a == b). Nếu đúng trả về 1 (TRUE) và ngược lại trả về 0 (FALSE)
+    printf("%d", (a == b));
 }
