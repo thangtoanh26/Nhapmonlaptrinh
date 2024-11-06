@@ -8,11 +8,11 @@ void insertionSort(vector<int> &array) {
         int min = i;
         for (int j = i + 1; j < size; j++) {
             if (min > array[j]) {
-                min = array[j];
+                min = array[j];                                //    Mỗi lần chạy sẽ chọn phần tử nhỏ nhất
             }
         }
         if (i != min)
-            swap(array[i], array[j]);
+            swap(array[i], array[j]);                          //    Phần tử nhỏ nhất được đẩy dần về đầu mảng
     }
 }
 
