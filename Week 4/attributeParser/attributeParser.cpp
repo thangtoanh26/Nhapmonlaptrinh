@@ -1,3 +1,12 @@
+/*
+TODO:
+[X] Xây dựng khung bài toán
+[ ] Xử lý bài toán
+    [ ] Xử lý định nghĩa tags
+    [ ] Xử lý Queries
+[ ] Đi ngủ đúng giờ
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
