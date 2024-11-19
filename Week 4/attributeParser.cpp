@@ -1,4 +1,7 @@
 /*
+Nguồn:
+https://www.hackerrank.com/challenges/attribute-parser/problem?isFullScreen=true
+
 Đề bài (tiếng anh):
 This challenge works with a custom-designed markup language HRML. In HRML, each element consists of a starting and ending tag, and there are attributes associated
 with each tag. Only starting tags can have attributes. We can call an attribute by referencing the tag, followed by a tilde, '~' and the name of the attribute. 
