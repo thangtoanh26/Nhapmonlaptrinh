@@ -1,4 +1,3 @@
-/*
 Nguồn:
 https://www.hackerrank.com/challenges/attribute-parser/problem?isFullScreen=true
 
@@ -61,6 +60,7 @@ Output Format
 Print the value of the attribute for each query. Print "Not Found!" without quotes if the attribute does not exist.
 
 Sample Input
+
     4 3
     <tag1 value = "HelloWorld">
     <tag2 name = "Name1">
@@ -71,7 +71,7 @@ Sample Input
     tag1~value
 
 Sample Output
+
     Name1
     Not Found!
     HelloWorld
-*/
