@@ -1,6 +1,5 @@
 /*
 TODO:
-[X] Xây dựng khung bài toán
 [ ] Xử lý bài toán
     [ ] Xử lý định nghĩa tags
     [ ] Xử lý Queries
@@ -37,6 +36,10 @@ int main() {
 }
 
 vector<tagAttr> defineTags(int lines) {
+    vector<tagAttr> token;
+
+    for (int i = 0;
+    return token;
 }
 
 void doQueries(vector<tagAttr>& tags, int queries) {
